@@ -14,6 +14,8 @@ module.exports = merge(common, {
   devServer: {
     inline: true,
     hot: true,
+    // serve service worker
+    contentBase: 'node_modules/@camptocamp/inkmap/dist',
   },
   plugins: [
     new Webpack.DefinePlugin({

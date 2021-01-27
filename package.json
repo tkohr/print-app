@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@camptocamp/inkmap": "file:../../inkmap",
     "core-js": "^3.8.1"
   }
 }
